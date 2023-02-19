@@ -33,4 +33,4 @@ build/
 .vscode/
 
 ### API key ###
-*.properties
+.properties
