@@ -1,0 +1,169 @@
+2023-02-18 14:56:24,921 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Starting SpaceMonitoringBotApplication using Java 11.0.16.1 on Home-PC with PID 163644 (C:\home\dev\space_monitoring_bot\target\classes started by strix in C:\home\dev\space_monitoring_bot)
+2023-02-18 14:56:24,927 DEBUG io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-02-18 14:56:24,927 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-18 14:56:25,366 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-18 14:56:25,422 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-02-18 14:56:25,826 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-18 14:56:25,886 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-18 14:56:26,052 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-18 14:56:26,218 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-18 14:56:26,617 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-18 14:56:26,634 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-02-18 14:56:27,298 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-18 14:56:27,308 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 14:56:28,418 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Started SpaceMonitoringBotApplication in 3.83 seconds (JVM running for 4.416)
+2023-02-18 14:56:34,432 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Replied to user Джинн
+2023-02-18 14:56:36,256 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Launches showed: Джинн
+2023-02-18 14:56:38,919 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] NASA photo of the day showed: Джинн
+2023-02-18 14:56:43,873 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Data showed: Джинн
+2023-02-18 14:56:45,691 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Help showed: Джинн
+2023-02-18 14:56:53,270 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 14:56:53,272 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-18 14:56:53,281 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-02-18 14:57:25,536 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Starting SpaceMonitoringBotApplication using Java 11.0.16.1 on Home-PC with PID 15464 (C:\home\dev\space_monitoring_bot\target\classes started by strix in C:\home\dev\space_monitoring_bot)
+2023-02-18 14:57:25,538 DEBUG io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-02-18 14:57:25,538 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-18 14:57:25,925 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-18 14:57:25,972 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2023-02-18 14:57:26,304 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-18 14:57:26,353 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-18 14:57:26,525 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-18 14:57:26,680 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-18 14:57:26,987 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-18 14:57:27,003 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-02-18 14:57:27,556 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-18 14:57:27,567 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 14:57:28,616 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Started SpaceMonitoringBotApplication in 3.382 seconds (JVM running for 3.908)
+2023-02-18 14:58:12,381 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Launches showed: Джинн
+2023-02-18 14:58:24,080 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Data showed: Джинн
+2023-02-18 14:58:34,244 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 14:58:34,246 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-18 14:58:34,253 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-02-18 15:03:15,338 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Starting SpaceMonitoringBotApplication using Java 11.0.16.1 on Home-PC with PID 158632 (C:\home\dev\space_monitoring_bot\target\classes started by strix in C:\home\dev\space_monitoring_bot)
+2023-02-18 15:03:15,340 DEBUG io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-02-18 15:03:15,340 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-18 15:03:15,729 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-18 15:03:15,772 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2023-02-18 15:03:16,139 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-18 15:03:16,184 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-18 15:03:16,334 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-18 15:03:16,487 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-18 15:03:16,832 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-18 15:03:16,845 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-02-18 15:03:17,426 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-18 15:03:17,434 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 15:03:18,401 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Started SpaceMonitoringBotApplication in 3.367 seconds (JVM running for 3.877)
+2023-02-18 15:03:20,980 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Launches showed: Джинн
+2023-02-18 15:03:24,312 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 15:03:24,314 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-18 15:03:24,322 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-02-18 15:05:02,481 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Starting SpaceMonitoringBotApplication using Java 11.0.16.1 on Home-PC with PID 187328 (C:\home\dev\space_monitoring_bot\target\classes started by strix in C:\home\dev\space_monitoring_bot)
+2023-02-18 15:05:02,483 DEBUG io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-02-18 15:05:02,483 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-18 15:05:02,886 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-18 15:05:02,941 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-02-18 15:05:03,319 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-18 15:05:03,378 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-18 15:05:03,540 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-18 15:05:03,717 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-18 15:05:04,113 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-18 15:05:04,127 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-02-18 15:05:04,678 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-18 15:05:04,686 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 15:05:05,679 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Started SpaceMonitoringBotApplication in 3.534 seconds (JVM running for 4.07)
+2023-02-18 15:05:07,739 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] NASA photo of the day showed: Джинн
+2023-02-18 15:05:11,664 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 15:05:11,666 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-18 15:05:11,674 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-02-18 15:05:52,378 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Starting SpaceMonitoringBotApplication using Java 11.0.16.1 on Home-PC with PID 126876 (C:\home\dev\space_monitoring_bot\target\classes started by strix in C:\home\dev\space_monitoring_bot)
+2023-02-18 15:05:52,380 DEBUG io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-02-18 15:05:52,380 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-18 15:05:52,779 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-18 15:05:52,829 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2023-02-18 15:05:53,179 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-18 15:05:53,225 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-18 15:05:53,371 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-18 15:05:53,525 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-18 15:05:53,871 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-18 15:05:53,885 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-02-18 15:05:54,437 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-18 15:05:54,445 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 15:05:55,380 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Started SpaceMonitoringBotApplication in 3.304 seconds (JVM running for 3.812)
+2023-02-18 15:05:57,730 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Launches showed: Джинн
+2023-02-18 15:06:01,677 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] NASA photo of the day showed: Джинн
+2023-02-18 15:06:13,320 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 15:06:13,322 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-18 15:06:13,330 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-02-18 15:15:42,960 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Starting SpaceMonitoringBotApplication using Java 11.0.16.1 on Home-PC with PID 8804 (C:\home\dev\space_monitoring_bot\target\classes started by strix in C:\home\dev\space_monitoring_bot)
+2023-02-18 15:15:42,962 DEBUG io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-02-18 15:15:42,962 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-18 15:15:43,356 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-18 15:15:43,403 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2023-02-18 15:15:43,767 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-18 15:15:43,811 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-18 15:15:43,958 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-18 15:15:44,111 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-18 15:15:44,436 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-18 15:15:44,448 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-02-18 15:15:44,987 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-18 15:15:44,995 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 15:15:45,994 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Started SpaceMonitoringBotApplication in 3.352 seconds (JVM running for 3.872)
+2023-02-18 15:15:47,807 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Replied to user Джинн
+2023-02-18 15:15:49,605 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Launches showed: Джинн
+2023-02-18 15:15:52,412 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] NASA photo of the day showed: Джинн
+2023-02-18 15:15:54,459 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Data showed: Джинн
+2023-02-18 15:15:55,864 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Help showed: Джинн
+2023-02-18 15:16:00,015 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 15:16:00,019 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-18 15:16:00,028 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-02-18 15:16:08,974 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplicationTests], using SpringBootContextLoader
+2023-02-18 15:16:08,978 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-18 15:16:08,978 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplicationTests]: SpaceMonitoringBotApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-18 15:16:09,061 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication for test class io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplicationTests
+2023-02-18 15:16:09,171 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-18 15:16:09,189 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@73173f63, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@55562aa9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@655ef322, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7e276594, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3401a114, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5066d65f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4233e892, org.springframework.test.context.event.EventPublishingTestExecutionListener@77d2e85, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3ecd267f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@58ffcbd7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@555cf22, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6bb2d00b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3c9bfddc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1a9c38eb]
+2023-02-18 15:16:09,428 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/strix/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/strix/.m2/repository/org/json/json/20220924/json-20220924.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-02-18 15:16:09,439 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplicationTests [main] Starting SpaceMonitoringBotApplicationTests using Java 17.0.6 on Home-PC with PID 67872 (started by strix in C:\home\dev\space_monitoring_bot)
+2023-02-18 15:16:09,439 DEBUG io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplicationTests [main] Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-02-18 15:16:09,439 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-18 15:16:09,763 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-18 15:16:09,808 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2023-02-18 15:16:10,231 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-18 15:16:10,275 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-18 15:16:10,412 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-18 15:16:10,551 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-18 15:16:10,905 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-18 15:16:10,919 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-02-18 15:16:11,526 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-18 15:16:11,536 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 15:16:12,548 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplicationTests [main] Started SpaceMonitoringBotApplicationTests in 3.322 seconds (JVM running for 4.2)
+2023-02-18 15:16:12,745 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 15:16:12,747 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-18 15:16:12,753 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-02-18 21:04:18,681 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Starting SpaceMonitoringBotApplication using Java 11.0.16.1 on Home-PC with PID 241268 (C:\home\dev\space_monitoring_bot\target\classes started by strix in C:\home\dev\space_monitoring_bot)
+2023-02-18 21:04:18,683 DEBUG io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-02-18 21:04:18,683 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-18 21:04:19,164 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-18 21:04:19,223 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2023-02-18 21:04:19,678 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-18 21:04:19,751 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-18 21:04:19,917 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-18 21:04:20,089 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-18 21:04:20,492 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-18 21:04:20,510 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-02-18 21:04:21,204 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-18 21:04:21,211 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 21:04:22,237 INFO io.proj3ct.space_monitoring_bot.SpaceMonitoringBotApplication [main] Started SpaceMonitoringBotApplication in 3.895 seconds (JVM running for 4.492)
+2023-02-18 21:04:23,595 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] Launches showed: Джинн
+2023-02-18 21:04:26,407 INFO io.proj3ct.space_monitoring_bot.service.TelegramBot [space_monitoring_bot Telegram Executor] NASA photo of the day showed: Джинн
+2023-02-18 21:04:29,962 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-18 21:04:29,965 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-18 21:04:29,974 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
